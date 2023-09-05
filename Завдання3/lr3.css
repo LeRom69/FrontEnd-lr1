@@ -1,0 +1,74 @@
+div:last-child{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-left: 5px solid rgb(122, 16, 116);
+    border-radius: 5px;
+}
+
+div:last-child:hover{
+    background-color: rgb(225, 246, 247);
+}
+
+div:first-of-type:hover{
+    background-color: rgb(41, 176, 217);
+}
+
+div:first-of-type{
+    background-color: rgb(41, 176, 217);
+    margin: 10px;
+    padding: 10px;
+    border-left: none;
+    max-width:500px;
+    border-radius: 5px;
+}
+
+div:first-child{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-left: 5px solid rgb(163, 25, 156);
+    max-width: 350px;
+}
+
+div:first-child:hover{
+    background-color: rgb(197, 223, 243);
+}
+
+div:nth-last-of-type(2):hover{
+    background-color: rgb(232, 245, 249);
+}
+
+span li{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    max-width: 355px;
+}
+
+span li:hover{
+    background-color: rgb(197, 220, 243);
+}
+
+ul{
+    list-style-type:  none;
+    
+}
+
+ol{
+    list-style-type:  none;
+}
+
+ol li{
+    border-left: 3px solid rgb(136, 7, 130);
+    border-radius: 3px;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+ol li:hover{
+    background-color: rgb(216, 234, 234);
+}
+
+

@@ -1,0 +1,68 @@
+form {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 105px;
+}
+
+div{
+    margin-bottom: 7px;
+}
+
+
+input:invalid {
+    border: 1.7px solid red;
+}
+
+
+input:valid {
+    border-color: rgb(148, 255, 54);
+}
+
+.p1, .p2, .p3{
+    color: red;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.name:valid~.p1 {
+    display: none;
+}
+
+.email:valid~.p2 {
+    display: none;
+}
+
+.password:valid~.p3 {
+    display: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 278px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #21b1ca;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #08798d;
+    transition: 0.2s;
+}
+
+input[type=submit]:active{
+    transition: 0.1s;
+    background-color: #741df6;
+}
